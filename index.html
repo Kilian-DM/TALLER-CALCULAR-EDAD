@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="diseño.css" />
+    <script src="codigo.js"></script>
+    <title>Nombre y edad</title>
+  </head>
+  <body>
+    <h1>Ingrese los datos</h1>
+    <div>
+      <label>ingrese el nombre </label>
+      <br />
+      <input type="text" name="nombre" id="nombre" />
+    </div>
+    <div>
+      <p>Ingrese la fecha de nacimiento</p>
+      <label>ingrese el dia </label>
+      <br />
+      <input type="number" name="dia" id="dia" />
+      <br />
+      <label>ingrese el mes</label>
+      <br />
+      <input type="number" name="mes" id="mes" />
+      <br />
+      <label>ingrese el año</label>
+      <br />
+      <input type="number" name="año" id="año" />
+    </div>
+    <br />
+    <div>
+      <p>Ingrese la fecha actual</p>
+      <label>ingrese el dia actual</label>
+      <br />
+      <input type="number" name="diaac" id="diaac" />
+      <br />
+      <label>ingrese el mes actual</label>
+      <br />
+      <input type="number" name="mesac" id="mesac" />
+      <br />
+      <label>ingrese el año actual</label>
+      <br />
+      <input type="number" name="añoac" id="añoac" />
+    </div>
+    <br />
+    <div>
+      <input type="button" value="calcular" onclick="calcularfecha()" />
+      <p>el resultado es:</p>
+    </div>
+    <div id="result">
+      <p id="nombreres"></p>
+      <p id="diares"></p>
+      <p id="mesres"></p>
+      <p id="añores"></p>
+    </div>
+  </body>
+</html>

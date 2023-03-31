@@ -1,0 +1,10 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+#result {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin: auto;
+  width: 150px;
+}
